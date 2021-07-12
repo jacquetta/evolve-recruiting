@@ -4,6 +4,7 @@
 Creating a web app for Evolve Recruting & Consulting that is full responsive.
 
 ### Team Members:
-Alain
-Jacquetta
-Moushumi
+* Alain
+* Jacquetta
+* Moushumi
+
