@@ -8,3 +8,5 @@ Creating a web app for Evolve Recruting & Consulting that is fully responsive in
 * Jacquetta
 * Moushumi
 
+### Mockup
+[Mockup] (https://www.figma.com/file/zYUsSvZjvAcQC7Decv8tZj/?node-id=32%3A187)
