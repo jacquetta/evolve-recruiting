@@ -49,13 +49,12 @@ footer p {
 
 /* header section*/
 header{
-    width: 100%;
     height: 368px;
     background-color: #f5edea;
 }
 .logo-img {
-    width: 50%;
-    height: auto;
+    width: 80%;
+    height: 368px;
 }
 
 .headerOne{
@@ -73,6 +72,7 @@ header{
 /* NAVIGATION SECTION*/
 
 .navigation {
+    margin: auto;
     height: 138px;
 }
 
@@ -85,7 +85,9 @@ header{
     font-size: 18px;
     text-transform: uppercase;
     margin-top: 50px;
-    margin-right: 41px;
+    text-align: center;
+    color: #565452;
+    margin-right: 50px;
 }
 
 #home {
