@@ -72,7 +72,7 @@ header{
 /* NAVIGATION SECTION*/
 
 .navigation {
-    margin: auto;
+    margin-bottom: 20px;
     height: 138px;
 }
 
@@ -84,10 +84,10 @@ header{
     border-radius: 5px;
     font-size: 18px;
     text-transform: uppercase;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     text-align: center;
     color: #565452;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 
 .navigation a:hover {
@@ -101,11 +101,22 @@ header{
 }
 
 .line {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     background-color: #bf884e;
 }
 
 /* SERVICES SECTION*/
+.services {
+    margin-top: 20px;
+    height: 701px;
+}
+
+.services-card {
+    /* width: 280px; */
+    height: 144px;
+    text-align: center;
+}
+
 
 
 /* QUOTES SECTION */
