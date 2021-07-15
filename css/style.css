@@ -90,6 +90,11 @@ header{
     margin-right: 50px;
 }
 
+.navigation a:hover {
+    background-color: #f5edea;
+    color: #565452;
+}
+
 #home {
     font-weight: bold;
     
