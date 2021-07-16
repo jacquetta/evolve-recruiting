@@ -40,7 +40,7 @@ p {
     color: #565452;
 }
 
-footer p {
+.small-text {
     font-weight: 'Lato', sans-serif;
     font-weight: normal;
     font-size: 14px;
@@ -48,18 +48,21 @@ footer p {
 }
 
 /* header section*/
-header{
+.jumbotron{
     height: 368px;
     background-color: #f5edea;
 }
 .logo-img {
-    width: 80%;
-    height: 368px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .headerOne{
-    text-align: left;
-    padding-top: 50px
+    margin: 0;
+    position: absolute;
+    top: 30%;
+
 }
 
 .header-btn {
@@ -67,6 +70,8 @@ header{
     height: 43px;
     border: solid 1px #bf884e;
     background-color: #fff;
+    text-transform: uppercase;
+    float: right;
 }
 
 /* NAVIGATION SECTION*/
