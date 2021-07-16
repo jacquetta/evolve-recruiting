@@ -47,6 +47,18 @@ p {
     color: #565452;
 }
 
+.big-btn {
+    width: 178px;
+    height: 43px;
+    background-color: #fff;
+    border: solid 1px #bf884e;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #565452;
+}
+
 /* header section*/
 .jumbotron{
     height: 368px;
@@ -78,21 +90,11 @@ p {
 
 .navigation {
     margin-bottom: 20px;
-    height: 138px;
 }
 
 .btn-nav {
-    width: 178px;
-    height: 43px;
-    background-color: #fff;
-    border: solid 1px #bf884e;
-    border-radius: 5px;
-    font-size: 18px;
-    text-transform: uppercase;
-    margin-top: 50px;
-    text-align: center;
-    color: #565452;
-    margin-right: 50px;
+    /* margin-right: 50px; */
+    margin: 20px;
 }
 
 .navigation a:hover {
@@ -106,26 +108,31 @@ p {
 
 .line {
     background-color: #bf884e;
+    margin-top: 30px;
 }
 
 /* SERVICES SECTION*/
 .services {
     margin-top: 20px;
-    height: 701px;
+    margin-bottom: 50px;
 }
 
-.services-card {
-    /* width: 280px; */
-    height: 144px;
+.services h2 {
     text-align: center;
+    margin: 50px auto;
+}
+.services .card {
+   min-width: 150px;
+   max-width: 200px; 
+   height: 150px;
 }
 
-
+.services-btn {
+    margin-top: 30px;
+}
 
 /* QUOTES SECTION */
-.quotes {
-    height: 577px;
-}
+
 .quote-img {
     width: 300px;
     height: 300px;

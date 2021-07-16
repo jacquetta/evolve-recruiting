@@ -38,25 +38,25 @@
     <!-- END OF HEADER SECTION -->
     
     <!-- NAVIGATION SECTION -->
-    <nav class="navigation">
+    <nav class="navigation container-fluid">
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link btn-nav active" id="home" href="#">home</a>
+                <a class="nav-link big-btn btn-nav active" id="home" href="#">home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link btn-nav" href="#">services</a>
+                <a class="nav-link big-btn btn-nav" href="#">services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link btn-nav" href="#">quotes</a>
+                <a class="nav-link big-btn btn-nav" href="#">quotes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link btn-nav" href="#">resources</a>
+                <a class="nav-link big-btn btn-nav" href="#">resources</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link btn-nav" href="#">about</a>
+                <a class="nav-link big-btn btn-nav" href="#">about</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link btn-nav" href="#">contact</a>
+                <a class="nav-link big-btn btn-nav" href="#">contact</a>
             </li>
         </ul>
         <hr class="line">
@@ -64,65 +64,48 @@
     <!-- END OF NAVIGATION SECTION -->
 
     <!-- MAIN SECTION -->
-    <main class="container">
+    <main class="container-fluid">
 
         <!-- SERVICES SECTION -->
         <section class="services container-fluid">
             <h2>Services offered at Evolve Recruiting</h2>
-            <div class="row row-cols-1 row-cols-md-4">
-                <div class="col mb-4">
-                    <div class="card services-card">
-                        <img src="..." class="card-img" alt="...">
-                        <div class="card-img-overlay">
-                        <h3 class="card-title">Career Coaching</h3>
-                        </div>
+            <div class="card-columns">
+                <div class="card mw-100 mh-100">
+                  <div class="card-body text-center">
+                    <h3 class="card-text">Career Coaching</h3>
+                  </div>
+                </div>
+                <div class="card mw-100 mh-100">
+                    <div class="card-body text-center">
+                      <h3 class="card-text">Hiring Workshops</h3>
                     </div>
                 </div>
-                <div class="col mb-4">
-                    <div class="card services-card">
-                        <img src="..." class="card-img" alt="...">
-                        <div class="card-img-overlay">
-                        <h3 class="card-title">Hiring Workshops</h3>
-                        </div>
+                <div class="card mw-100 mh-100">
+                    <div class="card-body text-center">
+                      <h3 class="card-text">Resume Writing</h3>
                     </div>
                 </div>
-
-                <div class="col mb-4">
-                    <div class="card services-card">
-                        <img src="..." class="card-img" alt="...">
-                        <div class="card-img-overlay">
-                        <h3 class="card-title">Resume Writing</h3>
-                        </div>
+              </div>
+              
+              <div class="card-columns collapse" id="collapseCards">
+                <div class="card mw-100 mh-100">
+                    <div class="card-body text-center">
+                      <h3 class="card-text">Mock Interviews</h3>
                     </div>
                 </div>
-
-                <div class="col mb-4">
-                    <div class="card services-card">
-                        <img src="..." class="card-img" alt="...">
-                        <div class="card-img-overlay">
-                        <h3 class="card-title">Mock Interviews</h3>
-                        </div>
+                <div class="card mw-100 mh-100">
+                    <div class="card-body text-center">
+                      <h3 class="card-text">Job Search</h3>
                     </div>
                 </div>
-
-                <div class="col mb-4">
-                    <div class="card services-card">
-                        <img src="..." class="card-img" alt="...">
-                        <div class="card-img-overlay">
-                        <h3 class="card-title">Job Search</h3>
-                        </div>
+                <div class="card mw-100 mh-100">
+                    <div class="card-body text-center">
+                      <h3 class="card-text">Recruitment</h3>
                     </div>
                 </div>
-
-                <div class="col mb-4">
-                    <div class="card services-card">
-                        <img src="..." class="card-img" alt="...">
-                        <div class="card-img-overlay">
-                        <h3 class="card-title">Recruitment</h3>
-                        </div>
-                    </div>
-                </div> 
-            </div>
+              </div>
+              <button class="btn services-btn big-btn" type="button" data-toggle="collapse" data-target="#collapseCards" aria-expanded="false" aria-controls="collapseCards">More</button>
+            
         </section>
         <!-- END OF SERVICES SECTION -->
 
@@ -151,7 +134,7 @@
             <h2>Evolve Resources</h2>
             <div class="row row-cols-1 row-cols-md-3">
                 <div class="col mb-4">
-                    <div class="card services-card">
+                    <div class="card resources-card">
                         <img src="..." class="card-img" alt="...">
                         <div class="card-img-overlay">
                         <h3 class="card-title">Tips</h3>
@@ -160,7 +143,7 @@
                     <button class="btn about-btn">Learn more</button>
                 </div>
                 <div class="col mb-4">
-                    <div class="card services-card">
+                    <div class="card resources-card">
                         <img src="..." class="card-img" alt="...">
                         <div class="card-img-overlay">
                         <h3 class="card-title">What To Expect</h3>
@@ -170,7 +153,7 @@
                 </div>
 
                 <div class="col mb-4">
-                    <div class="card services-card">
+                    <div class="card resources-card">
                         <img src="..." class="card-img" alt="...">
                         <div class="card-img-overlay">
                         <h3 class="card-title">Pricing Guide</h3>
