@@ -59,6 +59,15 @@ p {
     color: #565452;
 }
 
+.small-btn {
+    width: 120px;
+    height: 43px;
+    border: solid 1px #bf884e;
+    background-color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
 /* header section*/
 .jumbotron{
     height: 368px;
@@ -78,11 +87,6 @@ p {
 }
 
 .header-btn {
-    width: 120px;
-    height: 43px;
-    border: solid 1px #bf884e;
-    background-color: #fff;
-    text-transform: uppercase;
     float: right;
 }
 
@@ -132,14 +136,14 @@ p {
 }
 
 /* QUOTES SECTION */
-.quote {
+.quotes {
     background-color: #f5edea;
     width: 100%;
     padding: 60px 20px;
     margin-bottom:40px;
 }
 
-.quote h2 {
+.quotes h2 {
     margin-bottom: 40px;
     text-align: center;
 }
@@ -149,8 +153,29 @@ p {
 }
 
 /* RESOURCES SECTION */
+.resources {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
 
+.resources h2 {
+    text-align: center;
+    margin: 50px auto;
+}
 
+.resources h3 {
+    margin-top: 20px;
+}
+
+.resources-card {
+    min-width: 150px;
+    max-width: 300px; 
+    height: 200px;
+}
+
+.resources-btn {
+    margin-top: 20px
+}
 /* PAST WORK SECTION */
 
 

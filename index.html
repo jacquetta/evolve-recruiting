@@ -27,7 +27,7 @@
                 <img src="images/Evolve_Recruiting_Logo.png" alt="Responsive Evolve Logo" class="img-fluid logo-img">
             </div>
             <div class="col">
-                <button class="btn header-btn small-text">Client log in</button>
+                <button class="btn header-btn small-btn small-text">Client log in</button>
                 <div class="headerOne">
                     <h1>Catchy Tagline for H1</h1>
                     <h6>Subtitle</h6>
@@ -40,23 +40,26 @@
     <!-- NAVIGATION SECTION -->
     <nav class="navigation container-fluid">
         <ul class="nav justify-content-center">
+            <!-- <li class="nav-item">
+                <a class="nav-link big-btn btn-nav active" id="#home" href="#">home</a>
+            </li> -->
             <li class="nav-item">
-                <a class="nav-link big-btn btn-nav active" id="home" href="#">home</a>
+                <a class="nav-link big-btn btn-nav" href="#service">services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link big-btn btn-nav" href="#">services</a>
+                <a class="nav-link big-btn btn-nav" href="#quote">quotes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link big-btn btn-nav" href="#">quotes</a>
+                <a class="nav-link big-btn btn-nav" href="#resource">resources</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link big-btn btn-nav" href="#">resources</a>
+                <a class="nav-link big-btn btn-nav" href="#work">past work</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link big-btn btn-nav" href="#">about</a>
+                <a class="nav-link big-btn btn-nav" href="#about">about</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link big-btn btn-nav" href="#">contact</a>
+                <a class="nav-link big-btn btn-nav" href="#footer">contact</a>
             </li>
         </ul>
         <hr class="line">
@@ -67,7 +70,7 @@
     <main class="container-fluid">
 
         <!-- SERVICES SECTION -->
-        <section class="services container-fluid">
+        <section class="services container-fluid" id="service">
             <h2>Services offered at Evolve Recruiting</h2>
             <div class="card-columns">
                 <div class="card mw-100 mh-100">
@@ -110,7 +113,7 @@
         <!-- END OF SERVICES SECTION -->
 
         <!-- QUOTES SECTION -->
-        <section class="quote container-fluid">
+        <section class="quotes container-fluid" id="quote">
             <h2>Evolve Motivational Quotes</h2>
             <div class="card-deck">
                 <div class="card">
@@ -130,43 +133,33 @@
         <!-- END OF QUOTES SECTION -->
 
         <!-- RESOURCES SECTION -->
-        <section class="resources container">
+        <section class="resources container-fluid" id="resource">
             <h2>Evolve Resources</h2>
-            <div class="row row-cols-1 row-cols-md-3">
-                <div class="col mb-4">
-                    <div class="card resources-card">
-                        <img src="..." class="card-img" alt="...">
-                        <div class="card-img-overlay">
-                        <h3 class="card-title">Tips</h3>
-                        </div>
+            <div class="card-columns">
+                <div class="card mw-100 mh-100 text-center resources-card">
+                    <div class="card-body text-center">
+                        <h3 class="card-text">Tips</h3>
                     </div>
-                    <button class="btn about-btn">Learn more</button>
+                    <button class="btn small-btn resources-btn">Learn more</button>
                 </div>
-                <div class="col mb-4">
-                    <div class="card resources-card">
-                        <img src="..." class="card-img" alt="...">
-                        <div class="card-img-overlay">
-                        <h3 class="card-title">What To Expect</h3>
-                        </div>
+                <div class="card mw-100 mh-100 text-center resources-card">
+                    <div class="card-body text-center">
+                      <h3 class="card-text">What To Expect</h3>
                     </div>
-                    <button class="btn about-btn">Learn more</button>
+                    <button class="btn small-btn resources-btn">Learn more</button>
                 </div>
-
-                <div class="col mb-4">
-                    <div class="card resources-card">
-                        <img src="..." class="card-img" alt="...">
-                        <div class="card-img-overlay">
-                        <h3 class="card-title">Pricing Guide</h3>
-                        </div>
+                <div class="card mw-100 mh-100 text-center resources-card">
+                    <div class="card-body text-center">
+                      <h3 class="card-text">Pricing Guide</h3>
                     </div>
-                    <button class="btn about-btn">Learn more</button>
+                    <button class="btn small-btn resources-btn">Learn more</button>
                 </div>
             </div>
         </section>
         <!-- END OF RESOURCES SECTION -->
 
         <!-- PAST WORK SECTION -->
-            <div class="container">
+            <div class="container" id="work">
                 <h2>Past Resume Work</h2>
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
@@ -193,7 +186,7 @@
         <!-- END OF PAST WORK SECTION -->
 
         <!-- ABOUT SECTION -->
-        <section class="about container">
+        <section class="container" id="about">
             <div class="row row-cols-2">
                 <h2>About Evolve Recruiting</h2>
                 <div class="col">
@@ -216,7 +209,7 @@
     <!-- END OF MAIN SECTION -->
 
     <!-- FOOTER SECTION -->
-    <footer class="footer-section contact container">
+    <footer class="footer-section contact container" id="contact">
         <h3>Contact Evolve Recruiting</h3>
         <button class="btn about-btn">Contact</button>
         <p class="small-text">&#169;2021 Evolve Recruiting & Coaching</p>
