@@ -61,6 +61,9 @@ p {
     color: #565452;
 }
 
+.small-btn a {
+    text-align: center;
+}
 .small-btn {
     width: 120px;
     height: 43px;
@@ -101,6 +104,7 @@ i {
 
 .header-btn {
     float: right;
+    padding-top: 10px;
 }
 
 /* NAVIGATION SECTION*/
