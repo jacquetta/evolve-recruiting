@@ -8,7 +8,7 @@ html {
 h1 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 3vw;
     color: #565452;
     margin-bottom: 10px;
 }
@@ -30,7 +30,7 @@ h3 {
 h4 {
     font-family: 'Lato', sans-serif;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 2vw;
     color: #565452;
 }
 
@@ -262,3 +262,14 @@ footer p {
     margin: 20px auto;
     padding-bottom: 20px;
 }
+
+/* mobile-screens styling */
+/* @media only screen and (max-width: 400px){
+    h1{
+        font-size: 25px;
+    }
+
+    h4 {
+    font-size: 16px;
+    }
+} */
