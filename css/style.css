@@ -258,6 +258,9 @@ i {
 
 .about-btn {
     margin-top: 10px;
+    padding: auto;
+    font-size: 16px;
+    text-align: center;
 }
 .row {
     display: flex;
@@ -282,10 +285,11 @@ i {
     text-align: center;
 }
 
-.contact-btn {
-    margin: 0 auto;
-    display: block;
+.about-text p {
+    margin-top: 10px;
 }
+
+
 
 /* FOOTER SECTION */
 footer {
