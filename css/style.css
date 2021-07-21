@@ -3,6 +3,9 @@ html {
     font-size: 62.5%;
     
 }
+* {
+    box-sizing: border-box;
+}
 
 /* FONTS */
 h1 {
@@ -274,23 +277,34 @@ i {
     padding: 0 4px;
   }
   
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
+  .about-row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
   }
 
-  #contact h3 {
-    padding-top: 20px;
-    margin: 20px auto 10px auto;
-    text-align: center;
-}
+  .about-column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+  }
 
-.about-text p {
-    margin-top: 10px;
-}
+  .about-column img{
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+  }
+  
+  /* .slides-img {
+    width: 100%;
+    max-width: 400px;
+    max-height: 450px;
+    margin-top: 8px;
+    vertical-align: middle;
+    border-radius: 5px;
+  } */
 
-
-
+ 
 /* FOOTER SECTION */
 footer {
     background: #f5edea;
@@ -316,6 +330,11 @@ footer p {
         margin-top: 20px;
 
     }
+
+    .about-column {
+        flex: 50%;
+        max-width: 50%;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 904px) {
@@ -325,5 +344,10 @@ footer p {
 
     h4 {
     font-size: 20px;
+    }
+
+    .about-column{
+        flex: 100%;
+        max-width: 100%;
     }
 }
