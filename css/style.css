@@ -1,8 +1,9 @@
 html {
     /* sets default font-size to 1em = 10px */
     font-size: 62.5%;
-    
+    height: 100%;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -294,25 +295,20 @@ i {
       vertical-align: middle;
       width: 100%;
   }
-  
-  /* .slides-img {
-    width: 100%;
-    max-width: 400px;
-    max-height: 450px;
-    margin-top: 8px;
-    vertical-align: middle;
-    border-radius: 5px;
-  } */
-
+ 
  
 /* FOOTER SECTION */
 footer {
     background: #f5edea;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 
 footer p {
-    text-align: center;
-    margin: 20px auto;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
