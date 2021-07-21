@@ -78,6 +78,7 @@ li {
     background-color: #fff;
     text-transform: uppercase;
     border-radius: 5px;
+    padding-top: 10px;
 }
 
 #btn-back-to-top {
@@ -111,7 +112,6 @@ i {
 
 .header-btn {
     float: right;
-    padding-top: 10px;
 }
 
 /* NAVIGATION SECTION*/
@@ -167,9 +167,6 @@ i {
     padding-top: 15px;
     padding-bottom: 30px;
 }
-.mission-State{
-    
-}
 
 .missions h2 {
     margin: 50px auto;
@@ -216,10 +213,12 @@ i {
     min-width: 150px;
     max-width: 300px; 
     height: 200px;
+    border: 2px solid #bf884e;
 }
 
 .resources-btn {
-    margin-top: 20px
+    margin-top: 20px;
+    padding-top: 15px;
 }
 
 /* PAST WORK SECTION */
