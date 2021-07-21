@@ -42,6 +42,13 @@ p {
     color: #565452;
 }
 
+li {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #565452;
+}
+
 .small-text {
     font-weight: 'Lato', sans-serif;
     font-weight: normal;
@@ -153,21 +160,41 @@ i {
     display: block;
 }
 
-/* QUOTES SECTION */
-.quotes {
+/* MISSIONS SECTION */
+.missions {
     background-color: #f5edea;
     width: 100%;
-    padding: 60px 20px;
-    margin-bottom:40px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.mission-State{
+    
 }
 
-.quotes h2 {
+.missions h2 {
     margin: 50px auto;
-    text-align: center
+    text-align: center;
 }
-.quote-img {
-    max-width: 250px;
-    height: 250px;
+
+.missions h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 10px auto;
+}
+.missions p {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.missions ul  {
+    list-style-position: inside;
+    display: table;
+    margin: 0 auto;
+}
+
+.missions button {
+    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 /* RESOURCES SECTION */
@@ -279,7 +306,7 @@ footer p {
 
     .headerOne {
         margin-top: 20px;
-        
+
     }
 }
 
