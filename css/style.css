@@ -275,11 +275,8 @@ i {
     margin-top: 8px;
     vertical-align: middle;
   }
-/* FOOTER SECTION */
-footer {
-    background: #f5edea;
-}
-#contact h3 {
+
+  #contact h3 {
     padding-top: 20px;
     margin: 20px auto 10px auto;
     text-align: center;
@@ -288,6 +285,11 @@ footer {
 .contact-btn {
     margin: 0 auto;
     display: block;
+}
+
+/* FOOTER SECTION */
+footer {
+    background: #f5edea;
 }
 
 footer p {
