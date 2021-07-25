@@ -1,7 +1,7 @@
 # evolve-recruiting
 
 ## Practera Project 
-Creating a web app for Evolve Recruting & Consulting that is fully responsive in a 2 week timeline.
+Creating a web app for Evolve Recruting & Consulting that is fully responsive in a two-week timeline.
 
 ### Team Members:
 * Alain

@@ -59,6 +59,7 @@ li {
     font-size: 14px;
     color: #565452;
 }
+
 /* Buttons */
 .big-btn {
     width: 178px;
@@ -290,13 +291,20 @@ i {
       padding: 0 4px;
   }
 
-  .about-column img{
+
+  #about-img{
       margin-top: 8px;
       vertical-align: middle;
+      max-width: 500px;
       width: 100%;
+      
   }
  
- 
+ .carousel-control-next-icon,
+ .carousel-control-prev-icon {
+    color: #565452;
+ }
+
 /* FOOTER SECTION */
 footer {
     background: #f5edea;
@@ -350,5 +358,9 @@ footer p {
     .about-column{
         flex: 100%;
         max-width: 100%;
+    }
+
+    #about-img {
+        maxi-width: 500;
     }
 }
